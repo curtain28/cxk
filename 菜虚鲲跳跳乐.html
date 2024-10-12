@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://jlh.125ks.cn/cxk/dinogame/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+    <title>菜虚鲲跳跳乐</title>
+    <link rel="stylesheet" href="./菜虚鲲跳跳乐_files/index.css">
+    <link href="./菜虚鲲跳跳乐_files/css" rel="stylesheet">
+    <script src="./菜虚鲲跳跳乐_files/index.js.下载"></script>
+</head>
+
+<body id="t" class="offline">
+    <div id="messageBox" class="sendmessage">
+        <h1 style="text-align: center;font-family: &#39;Open Sans&#39;, sans-serif;">菜虚鲲跳跳乐</h1>
+        <div class="niokbutton" onclick="okbuttonsend()"></div>
+    </div>
+    <audio id="offline-sound-press">
+        <source src="https://res.wx.qq.com/voice/getvoice?mediaid=MzkyMTM4NDc3MV8xMDAwMDAwNzU=" type="audio/mpeg">
+        
+    </audio>
+    <audio id="offline-sound-hit">
+        <source src="https://res.wx.qq.com/voice/getvoice?mediaid=MzkyMTM4NDc3MV8xMDAwMDAzNjA=" type="audio/mpeg">
+        
+    </audio>
+    <audio id="offline-sound-reached">
+        <source src="https://res.wx.qq.com/voice/getvoice?mediaid=MzkyMTM4NDc3MV8xMDAwMDAxMDk=" type="audio/mpeg">
+        
+    </audio>
+    <div id="main-frame-error" class="interstitial-wrapper">
+        <div id="main-content">
+            <div class="icon icon-offline" alt="" style="visibility: hidden;"></div>
+        </div>
+        <div id="offline-resources">
+            <img id="offline-resources-1x" src="./菜虚鲲跳跳乐_files/100-offline-sprite.png">
+            <img id="offline-resources-2x" src="./菜虚鲲跳跳乐_files/200-offline-sprite.png">
+            <template id="audio-resources"></template>
+        </div>
+    <div class="runner-container"><canvas class="runner-canvas" width="600" height="150" style="width: 600px; height: 150px;"></canvas></div></div>
+    <div style="text-align: center;">
+        点击屏幕空白处开始或跳跃
+    </div>
+
+    <div style="text-align: center;position: relative;z-index: 2;">
+        <h1><a href="http://jlh.125ks.cn/cxk/dinogame/"></a></h1>
+    </div>
+
+
+
+<script>
+    document.onkeydown = function (evt) {
+        evt = evt || window.event;
+        if (evt.keyCode == 32) {
+            var box = document.getElementById("messageBox");
+            box.style.visibility = "hidden";
+        }
+    };
+</script>
+
+</body></html>
